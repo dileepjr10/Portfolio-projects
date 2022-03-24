@@ -37,7 +37,7 @@ ORDER BY 1,2
 
 
 /*
-3.  quarterly view of orders from different sources?
+3.  quarterly view of orders from different sources.
 */
 
 
@@ -59,8 +59,7 @@ ORDER BY 1,2
 ;
 
 /*
-4.  overall session-to-order conversion rate trends for those same channels, 
-by quarter
+4.  overall session-to-order conversion rate trends for the above same channels, by quarter.
 */
 
 SELECT 
@@ -109,8 +108,7 @@ ORDER BY 1,2
 
 
 /*
-6. pull monthly sessions to 
-the /products page, and show how the % of those sessions clicking through another page has changed 
+6. monthly sessions to the /products page, and show how the % of those sessions clicking through another page has changed 
 over time, along with a view of how conversion from /products to placing an order has improved.
 */
 
@@ -144,8 +142,8 @@ GROUP BY 1,2
 ;
 
 /*
-7. We made our 4th product available as a primary product on December 05, 2014 (it was previously only a cross-sell item). 
-Could you please pull sales data since then, and show how well each product cross-sells from one another?
+7. sales data since,  We made our 4th product available as a primary product on December 05, 2014 (it was previously only a cross-sell item) then,
+ and show how well each product cross-sells from one another?
 */
 
 CREATE TEMPORARY TABLE primary_products
@@ -154,7 +152,7 @@ SELECT
     primary_product_id, 
     created_at AS ordered_at
 FROM orders 
-WHERE created_at > '2014-12-05' -- when the 4th product was added (says so in question)
+WHERE created_at > '2014-12-05' -- when the 4th product was added 
 ;
 
 SELECT
