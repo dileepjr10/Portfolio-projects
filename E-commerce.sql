@@ -1,3 +1,7 @@
+/* In this project we are going to analyze the performance of a virtual e-commerce website through various KPI's like conversion rate, click through rate,
+how the introduction of a new product page/Home page has effected the performance of the website, a quick look at the sales/orders trend over the 
+week/month/year hierarchy, how well, each product is performing when it is sold as a primary product/when it is sold as a cross selling product.
+*/
 USE mavenfuzzyfactory;
 
 /*
