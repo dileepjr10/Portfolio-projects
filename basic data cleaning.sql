@@ -1,3 +1,7 @@
+/* In this project we will perform all the data checks/data transformations(like verifying the correct data types for columns, dealing with null/empty fields,
+  dealing with duplicates, adding/removing the columns as per the requirements), inorder to make the data ready for reporting
+*/
+
 -- Check data types of columns and change the inappropriate dtypes of columns
 ALTER TABLE Property
 ALTER COLUMN [SaleDate] DATE;
